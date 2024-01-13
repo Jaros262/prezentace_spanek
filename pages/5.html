@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spánek Prezentace</title>
+    <link rel="stylesheet" href="../css/stylePages.css">
+</head>
+<body class="one">
+        <div class="two">
+            <a href="../prezentace_spanek_jaros.html">
+                <img src="../img/home.png" alt="home" class="home">
+            </a>
+            
+        </div>
+        <div class="three">
+            <div class="prv" style="margin-left: 25%;">
+                <h3>REM</h3>
+                <h3 style="padding-top: 105%;">NREM</h3>
+                <p style="padding-top: 35%; color: rgb(234,226,224);">a</p>
+            </div>
+            <div class="druh">
+                <h2>
+                    Fáze spánku
+                </h2>
+                <hr>
+                <ul>
+                    <li>
+                        V průběhu REM spánku je člověk téměř strnulý
+                    </li>
+                    <li>
+                        Probudit člověka v REM fázi je nejobtížnější
+                    </li>
+                    <li>
+                        REM fáze (sny) byla prokázána u všech savců
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        V průběhu NREM spánku je nízká neuronová aktivita
+                    </li>
+                    <li>
+                        V této fázi dochází k tělesné regeneraci.
+                    </li>
+                    <li>
+                        NREM spánek se dělí na 3 Fáze.
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+        <div class="four">
+            <div class="row">
+                <a href="4.html">
+                    <div class="arrow-left" onmouseover="changeColor(this)" onmouseout="restoreColor(this)"></div>
+                </a>
+                <a href="6.html">
+                    <div class="arrow-right" onmouseover="changeColor2(this)" onmouseout="restoreColor2(this)"></div>
+                </a>
+            </div>
+        </div>
+</body>
+<script>
+    function changeColor(element) {
+      element.style.borderRightColor = "gray";
+    }
+
+    function changeColor2(element) {
+      element.style.borderLeftColor = "gray";
+    }
+
+    function restoreColor(element) {
+      element.style.borderRightColor = "black";
+    }
+
+    function restoreColor2(element) {
+      element.style.borderLeftColor = "black";
+    }
+  </script>
+</html>

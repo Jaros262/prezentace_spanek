@@ -1,0 +1,98 @@
+.one {
+    background-color: rgb(234,226,224);
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h2 {
+    margin: 0;
+    font-size: 450%;
+    font-family:'Calibri';
+
+}
+
+hr {
+    margin: 0;
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+
+li {
+    font-size: 150%;
+    font-family:'Calibri';
+}
+
+.two {
+    height: 15vh;
+    width: 100vmax;
+}
+
+.home {
+    position: absolute;
+    right: 10px;
+    height: 15vh;
+}
+
+.three {
+    margin-left: 10%;
+    height: 70vh;
+    width: 75vmax;
+    opacity: 100%;
+}
+
+.four {
+    display: flex;
+    margin-top: 3.5%;
+    height: 15vh;
+    width: 100vmax;
+    justify-content: center;
+}
+
+.arrow-left {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 40px solid black; /* Set the color of the arrow */
+  }
+
+  .arrow-right {
+    display: inline-block;
+    margin-left: 10px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 40px solid black; /* Set the color of the arrow */
+  }
+
+  .prv {
+    padding-top: 0%;
+    display: inline-block;
+  }
+
+  .druh {
+    margin-left: 1%;
+    display: inline-block;
+  }
+
+  .pic {
+    width: 72vb;
+  }
+  .pic2 {
+    width: 65vb;
+  }
+
+  .pic3 {
+    padding-left: 10vb;
+    width: 150vb;
+  }
